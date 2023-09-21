@@ -78,6 +78,9 @@ public class TipCalculator {
             System.out.println("What a low tip!");
             System.out.println("Never come back again " + name + "!");
         }
+
+        sc.close();
+
     }
 }
 
