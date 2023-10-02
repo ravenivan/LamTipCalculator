@@ -19,10 +19,10 @@ public class TipCalculator {
         System.out.print("What is your name? ");
         String name = sc.nextLine(); // stores name of user
 
-        System.out.println("Hello " + name + "!" + " How many people are in your group today?: ");
+        System.out.print("Hello " + name + "!" + " How many people are in your group today?: ");
         int people = sc.nextInt(); // stores number of people in the group
 
-        System.out.println("What tip percentage would you like to give? (0-100): ");
+        System.out.print("What tip percentage would you like to give? (0-100): ");
         int tip = sc.nextInt(); // stores tip
 
         String item;
